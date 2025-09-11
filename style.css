@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'Pixelify_Sans';
+    src: url(assets/PixelifySans-VariableFont_wght.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Jersey_15';
+    src: url(assets/Jersey15-Regular.ttf);
+}
+
+body {
+    background-color: #ff3d3d;
+}
+
+form {
+    width: 100%;
+    display: flex;
+}
+
+form button {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    grid-row: 1;
+    padding: 10px;
+    margin: 2px;
+
+    background-color: rgb(252, 181, 181);
+    font-family: "Pixelify_Sans", sans-serif;
+    font-size: 15px;
+}
+
+form button:hover {
+    cursor: pointer;
+    transform: translateY(-2px);
+}
+
+form button:active {
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+.imgcontainer {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: 200px;
+    width: 300px;
+}
+
+.center {
+    height: 420px;
+    background-color: rgb(252, 181, 181);  
+    border: 2px solid #000000;
+    padding: 10px;
+    margin: 2px;
+}
+
+.time {
+    width: 100%;
+    font-size: 120px;
+    font-family: "Jersey_15", sans-serif;
+    text-align: center;
+}

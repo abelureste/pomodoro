@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'"/>
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Pomodoro</title>
+  </head>
+  <body>
+    <form class="modes">
+        <button id="work-button">Work</button>
+        <button id="short-break-button">Short Break</button>
+        <button id="long-break-button">Long Break</button>
+    </form>
+
+    <div class="center">
+        <div class="imgcontainer">
+            <img src="assets/tomato.gif"/>
+        </div>
+        <div id="timer-display" class="time">
+            25:00
+        </div>
+    </div>
+
+    <form class="controls">
+        <button id="start-stop-button">Start</button>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
